@@ -16,7 +16,8 @@ const GAMES = [
   {
     title: 'Bird',
     description: 'Guide a bird through obstacles by writing programs that control its flight path. Introduces angles, conditions and more complex logic.',
-    status: 'coming-soon' as const,
+    status: 'live' as const,
+    url: 'https://blockly-rebuild.vercel.app/bird.html',
     accentColor: '#3dd68c',
     icon: '◈',
     tags: ['angles', 'conditions', 'intermediate'],
@@ -24,7 +25,17 @@ const GAMES = [
   {
     title: 'Turtle',
     description: 'Draw geometric patterns and artwork by programming a turtle to move and turn. Explores loops, variables and creative computation.',
-    status: 'coming-soon' as const,
+    status: 'live' as const,
+    url: 'https://blockly-rebuild.vercel.app/turtle.html',
+    accentColor: '#b388ff',
+    icon: '◎',
+    tags: ['drawing', 'loops', 'variables', 'creative'],
+  },
+  {
+    title: 'Music',
+    description: 'Draw geometric patterns and artwork by programming a turtle to move and turn. Explores loops, variables and creative computation.',
+    status: 'live' as const,
+    url: 'https://blockly-rebuild.vercel.app/music.html',
     accentColor: '#b388ff',
     icon: '◎',
     tags: ['drawing', 'loops', 'variables', 'creative'],
